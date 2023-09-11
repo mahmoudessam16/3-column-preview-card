@@ -68,3 +68,15 @@ body {
         }
     }
 }
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        margin: 15px !important;
+        width: 100% !important;
+        .card {
+            button {
+                margin-top: 10px !important;
+            }
+        }
+    }
+}
